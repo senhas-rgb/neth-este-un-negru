@@ -82,10 +82,10 @@
 .right {
     position: fixed; /* Sticks the box to the right side */
     right: 0;
-    top: 20%; /* Adjust this to change the vertical position */
+    top: 40%; /* Adjust this to change the vertical position */
     transform: translateY(-50%); /* Centers the box vertically */
     width: 270px; /* Adjust the width */
-    height: 170px; /* Adjust the height */
+    height: 270px; /* Adjust the height */
     text-align: center;
     padding: 20px;
 }
