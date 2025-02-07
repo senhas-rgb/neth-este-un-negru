@@ -21,7 +21,7 @@ function changeMessage() {
     messageElement.textContent = messages[randomIndex];
 }
 
-const messageInterval = setInterval(changeMessage, 1000);
+const messageInterval = setInterval(changeMessage, 1500);
 changeMessage();
 
 setTimeout(() => {
