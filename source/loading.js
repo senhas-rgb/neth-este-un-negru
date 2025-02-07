@@ -11,7 +11,7 @@ const messages = [
 
 ];
 
-const timeout = 0; // default 6k
+const timeout = 6000; // default 6k
 
 const messageElement = document.getElementById("loading-message");
 
