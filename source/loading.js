@@ -1,12 +1,12 @@
 const messages = [
-    "Initializing components...",
-    "Compiling shaders...",
-    "Optimizing performance...",
-    "Fetching data...",
-    "Enhancing user experience...",
-    "Rendering visuals...",
-    "Checking system resources...",
-    "Almost there..."
+    "Patrick is real...",
+    "Nethmira is very niggerlecious...",
+    "Welcome to niggarville...",
+    "CIA has been notified...",
+    "Terry has been summoned...",
+    "True divine interllect content...",
+    "Ronaldo and messi both very nigga...",
+    "Imagine if nethmira gets a low taper fade..."
 ];
 
 const messageElement = document.getElementById("loading-message");
