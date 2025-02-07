@@ -6,8 +6,12 @@ const messages = [
     "Terry has been summoned...",
     "True divine interllect content...",
     "Ronaldo and messi both very nigga...",
-    "Imagine if nethmira gets a low taper fade..."
+    "Imagine if nethmira gets a low taper fade...",
+    "Nyvyme is the goat..."
+
 ];
+
+const timeout = 0; // default 6k
 
 const messageElement = document.getElementById("loading-message");
 
@@ -17,7 +21,7 @@ function changeMessage() {
     messageElement.textContent = messages[randomIndex];
 }
 
-const messageInterval = setInterval(changeMessage, 1500);
+const messageInterval = setInterval(changeMessage, 1000);
 changeMessage();
 
 setTimeout(() => {
@@ -27,4 +31,4 @@ setTimeout(() => {
         document.getElementById("loading-screen").style.display = "none";
         document.getElementById("content").style.display = "block";
     }, 500);
-}, 6000);
+}, timeout);

@@ -2,7 +2,7 @@
     transition: 0.4s;
     font-family: sans-serif;
     background-color: #f6f9fc;
-    padding: 0;
+    padding: 2px;
     margin: 0;
     box-sizing: border-box;
     font-size: 30px;
@@ -59,23 +59,62 @@
     letter-spacing: 4px;
 }
 
-.intro-box h2{
+.box h2{
     font-size: 1em;
     margin-top: .5em;
     border-bottom: 1px solid #888;
     background: #ecf2f5;
 }
 
-.intro-box p{
+.box p{
     font-size: 20px;
     background: #ecf2f5;
 }
 
-.intro-box{
+.box{
     margin-bottom: 1.5em;
     padding: .65em;
     background: #ecf2f5;
     border: 1px solid #bcd;
     height: 200px;
     width: 400px;
+}
+
+.right {
+    position: fixed; /* Sticks the box to the right side */
+    right: 0;
+    top: 50%; /* Adjust this to change the vertical position */
+    transform: translateY(-50%); /* Centers the box vertically */
+    width: 270px; /* Adjust the width */
+    height: 450px; /* Adjust the height */
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.commit-message {
+    font-size: 10px;
+}
+.commit-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 1.3s;
+    background: #3ad;
+    font-size: 12px;
+}
+.commit-link:hover {
+    background: #08c;
+}
+
+.error {
+    display: none;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
 }
